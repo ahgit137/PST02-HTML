@@ -1,0 +1,129 @@
+<!-- This is a Homework assignment for web design class using HTML -->
+<!-- The content of the page only serves as an exercise for the HTML learning and does not reflect the real scenarios -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al Happy's World Lab</title>
+</head>
+<body>
+    <!-- <a href="hobbies.html">Hobbies</a> -->
+    <header>
+        <h1> Al and His Lab of the World</h1>
+        <nav>
+            <ul>
+                <li><a href="#Him">About Him</a></li>
+                <li><a href="#Life">Life Style</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 id="Him">About Him</h2>
+            <p>Al is a dynamic individual whose passions effortlessly bridge the worlds of sports and science. 
+                His fervor for athletic endeavors is matched only by his insatiable curiosity for scientific inquiry.</p>
+            <p>Beyond his intellectual pursuits, he finds solace in exploring the globe, relishing the opportunity to immerse 
+                himself in diverse cultures and forge connections with people from all walks of life. Whether scaling mountains 
+                or delving into the depths of scientific discovery, Al's boundless enthusiasm and thirst for knowledge propel him 
+                on a perpetual journey of exploration and enlightenment.</p>
+            <p>** Summarized by his best friend - ChatGPT</p>
+            <br>
+            <img src="./images/Bike.jpg" alt="On Bike" width="300" Heeight="">
+
+        </section>
+        <section>
+            <h2 id="Life">Life Style</h2>
+            <ul>
+                <li><strong>His Travel</strong></li>
+                    <p>Al has been to following countries and areas:</p>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th width="50">Country Visited</th>
+                                <th width="200">Purpose of Visit</th>
+                                <th width="500">Remarks</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>USA</td>
+                                <td>Country of resident</td>
+                                <td>Work, eat, play and sleep</td>
+                            </tr>
+                            <tr>
+                                <td>Canada</td>
+                                <td>Vacation</td>
+                                <td>Week-long trip was too short</td>
+                            </tr>
+                            <tr>
+                                <td>Asia</td>
+                                <td rowspan="2">Business</td>
+                                <td rowspan="2">Travel for business is no fun</td>
+                            </tr>
+                            <tr>
+                                <td>Europe</td>
+                            </tr>
+                            <tr>
+                                <td>Philippine</td>
+                                <td>Vacation</td>
+                                <td>Two weeks of island hopping trip was <strong>never</strong> enough</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Table to be expanded upon additional funding conditions....</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                <br>
+                <form>
+                    <li><strong>Go Fund Him</strong></li>
+                    <p>Your donation goes a long way in Al's travel!</p>
+                    <label for="name">Donor's Name:</label>
+                    <input type="text" name="name" id="name" required> <br>
+                    <label for="donation">Donor Amount:</label>
+                    <input type="number" name="donation" id="donation" required> <br>
+                    <textarea name="message" id="message" cols="60" rows="10" placeholder="Enter your Address, Phone #, Email and messages here" required></textarea> <br>
+                    <!-- Radio button -->
+                    <p><u>Donation Frequency</u></p>
+                    <input type="radio" name="options" id="daily" value="daily">
+                    <label for="daily">Daily</label>
+                    <input type="radio" name="options" id="weekly" value="weekly">
+                    <label for="weekly">Weekly</label>
+                    <input type="radio" name="options" id="monthly" value="monthly">
+                    <label for="monthly">Monthly</label>
+                    <br>
+
+                    <!-- Checkbox -->
+                    <p><u>Receipt</u></p>
+                    <input type="checkbox" name="checklist" id="check1" value="check1">
+                    <label for="check1">Letter form</label>
+                    <input type="checkbox" name="checklist" id="check2" value="check2">
+                    <label for="check2">Email</label>
+                    <input type="checkbox" name="checklist" id="check3" value="check3">
+                    <label for="check3">Text Messaging</label>
+
+                    <br><br>
+                    <button type="submit">Submit</button>
+                </form>
+            </ul>
+        </section>
+    </main>
+    <hr>
+    <aside>
+        <h3 id="Contact">Contact</h3>
+        <p>Al's personal contact:</p>
+        <ul>
+            <li>Name: Al Happy</li>
+            <li>Phone: 800-800-8000</li>
+            <li>Email: al.happy@nada.com</li>
+        </ul>
+    </aside>
+    <hr>
+    <footer>
+        <p>&copy; 2024 World Lab Inc. All Rights reserved.</p>
+    </footer>
+</body>
+</html>
